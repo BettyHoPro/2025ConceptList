@@ -10,7 +10,10 @@
  */
 
 // Write our function (we must define it too!) below
-// ...
+// 
+const joinList = (arr) => {
+  return arr.join(", ");
+};
 
 // Test / Driver Code below...
 const conceptList = ["gists", "types", "operators", "iteration", "problem solving"];
