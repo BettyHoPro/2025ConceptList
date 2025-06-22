@@ -1,3 +1,10 @@
+
+
+const seroPad = (num, label) => {
+  let numString = String(num);
+  while (numString.length < 3)
+};
+
 function printFarmInventory(cows, chickens) {
    let cowString = String(cows);
    while (cowString.length < 3){
