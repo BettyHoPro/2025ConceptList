@@ -10,4 +10,16 @@ const printMyVars = () => {
 printMyVars();
 
 console.log("--Outside of printMyVas now--");
-console.log(myLocalVar);
+// console.log(myLocalVar);
+
+console.log("=======");
+let myVar = "global";
+
+const myFunc = () => {
+  let myVar = "local";
+  console.log("Inside myFunction, myVar is:", myVar);
+};
+
+myFunc();
+
+console.log("Outside myFunction, myVar is:", myVar);
