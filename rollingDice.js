@@ -5,7 +5,7 @@ const rolling = num => {
     result.push(Math.floor(Math.random() * 6) + 1);
   }
 
-  return result;
+  return `Rolled ${num} dice: ${result.join(", ").trim()}`;
 };
 
 console.log(rolling(process.argv[2]));
